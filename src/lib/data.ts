@@ -54,8 +54,8 @@ export const skills = [
 export const projects = [
   {
     id: "project-1",
-    title: "E-Commerce Platform",
-    description: "A full-featured online store with a modern UI, product management, and a secure checkout process.",
+    title: "Application web avancée",
+    description: "Une application web avec une interface utilisateur très poussée et soignée, et une page d'accueil magnifiquement créée. L'organisation et la structure impeccables de l'application garantissent une expérience utilisateur fluide et intuitive.",
     tags: ["Next.js", "React", "Tailwind CSS"],
     link: "https://nuhm.netlify.app",
   },
