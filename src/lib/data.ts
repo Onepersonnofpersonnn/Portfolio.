@@ -5,51 +5,53 @@ export const skills = [
     name: "JavaScript",
     level: 95,
     description: "Building dynamic and interactive web applications.",
-    icon: JavaScriptIcon,
+    icon: CheckCircle,
   },
   {
     name: "Python",
     level: 85,
     description: "For backend development and data processing.",
-    icon: PythonIcon,
+    icon: CheckCircle,
   },
   {
     name: "HTML5",
     level: 100,
     description: "Structuring web content with semantic markup.",
-    icon: HtmlIcon,
+    icon: CheckCircle,
   },
   {
     name: "CSS3",
     level: 98,
     description: "Designing beautiful and responsive layouts.",
-    icon: CssIcon,
+    icon: CheckCircle,
   },
   {
     name: "React",
     level: 92,
     description: "Creating powerful single-page applications.",
-    icon: ReactIcon,
+    icon: CheckCircle,
   },
   {
     name: "Next.js",
     level: 90,
     description: "For server-side rendering and static site generation.",
-    icon: NextjsIcon,
+    icon: CheckCircle,
   },
   {
     name: "Tailwind CSS",
     level: 95,
     description: "Rapidly building custom user interfaces.",
-    icon: TailwindCssIcon,
+    icon: CheckCircle,
   },
   {
     name: "Node.js",
     level: 80,
     description: "Developing scalable backend services and APIs.",
-    icon: NodeJsIcon,
+    icon: CheckCircle,
   }
-];
+].map(skill => ({...skill, icon: CheckCircle}));
+
+import { CheckCircle } from "lucide-react";
 
 export const projects = [
   {
@@ -68,16 +70,16 @@ export const projects = [
   },
   {
     id: "project-3",
-    title: "Social Media App",
-    description: "A mobile-first social network allowing users to connect, share posts, and interact in real-time.",
-    tags: ["HTML", "CSS", "React Native", "Node.js", "Firebase"],
+    title: "Vitesse d'Exécution",
+    description: "Des applications livrées rapidement sans compromis sur la qualité. Mon efficacité garantit le respect des délais et une mise sur le marché accélérée pour un retour sur investissement optimal.",
+    tags: ["HTML", "CSS", "Performance", "Optimisation", "Efficacité"],
     link: "#",
   },
   {
     id: "project-4",
-    title: "Corporate Landing Page",
-    description: "A sleek and professional website for a corporate client, complete with a headless CMS for easy content updates.",
-    tags: ["HTML", "CSS", "Next.js", "GraphQL", "Headless CMS"],
+    title: "Qualité du Rendu",
+    description: "Un rendu visuel impeccable et une attention méticuleuse aux détails. Chaque projet est conçu pour offrir une expérience utilisateur esthétique, intuitive et mémorable sur tous les appareils.",
+    tags: ["HTML", "CSS", "UI/UX", "Design", "Responsive"],
     link: "#",
   },
 ];
