@@ -37,13 +37,12 @@ export function ProjectsSection() {
             return (
               <Card key={project.title} className="group overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
                 <CardHeader className="p-0">
-                  <Link href={project.link} className="block relative h-48 w-full">
+                  <Link href={project.link} className="block relative h-48 w-full" target="_blank" rel="noopener noreferrer">
                     {image && (
-                      <Image
+                      <img
                         src={image.imageUrl}
                         alt={project.title}
-                        fill
-                        className="object-cover transition-transform duration-300 group-hover:scale-105"
+                        className="absolute h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                         data-ai-hint={image.imageHint}
                       />
                     )}
@@ -51,7 +50,7 @@ export function ProjectsSection() {
                 </CardHeader>
                 <CardContent className="p-6">
                   <CardTitle className="mb-1">{project.title}</CardTitle>
-                  <CardDescription className="mb-4">{project.description}</CardDescription>
+                  <CardDescription className="mb-4 h-24">{project.description}</CardDescription>
                   <div className="flex flex-wrap gap-2">
                     {project.tags.map((tag) => (
                       <Badge key={tag} variant="secondary">
@@ -62,7 +61,7 @@ export function ProjectsSection() {
                 </CardContent>
                 <CardFooter className="p-6 pt-0">
                    <Button asChild variant="outline">
-                      <Link href={project.link}>
+                      <Link href={project.link} target="_blank" rel="noopener noreferrer">
                         View Project
                         <ArrowUpRight className="ml-2 h-4 w-4" />
                       </Link>
