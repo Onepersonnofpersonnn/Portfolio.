@@ -19,8 +19,12 @@ export function SkillsSection() {
           </div>
         </div>
         <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {skills.map((skill) => (
-            <Card key={skill.name} className="flex flex-col items-center justify-center p-4 text-center transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+          {skills.map((skill, index) => (
+            <Card
+              key={skill.name}
+              className="flex flex-col items-center justify-center p-4 text-center transition-transform duration-300 hover:scale-105 hover:shadow-lg animate-float"
+              style={{ animationDelay: `${index * 150}ms` }}
+            >
               <CardHeader className="p-2">
                 <CheckCircle className="h-12 w-12 text-accent" />
               </CardHeader>
