@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 export function HeroSection() {
@@ -29,8 +30,15 @@ export function HeroSection() {
               </Button>
             </div>
           </div>
-          <div className="hidden lg:block relative">
+          <div className="relative flex items-center justify-center">
              <div className="absolute inset-0 bg-gradient-to-tr from-primary to-accent rounded-full blur-3xl opacity-30"></div>
+             <Image
+                src="https://i.postimg.cc/LsNs9kPw/c637f55d-08cf-408c-b3e7-f73ec8bfecb4.png"
+                alt="John King"
+                width={400}
+                height={400}
+                className="relative z-10 rounded-full object-cover aspect-square shadow-lg"
+              />
           </div>
         </div>
       </div>
