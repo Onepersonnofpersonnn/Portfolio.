@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { skills } from "@/lib/data";
+import { CheckCircle } from "lucide-react";
 
 export function SkillsSection() {
   return (
@@ -21,7 +22,7 @@ export function SkillsSection() {
           {skills.map((skill) => (
             <Card key={skill.name} className="flex flex-col items-center justify-center p-4 text-center transition-transform duration-300 hover:scale-105 hover:shadow-lg">
               <CardHeader className="p-2">
-                <skill.icon className="h-12 w-12 text-primary" />
+                <CheckCircle className="h-12 w-12 text-accent" />
               </CardHeader>
               <CardContent className="p-2 w-full">
                 <CardTitle className="text-lg font-semibold">{skill.name}</CardTitle>
