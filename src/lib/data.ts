@@ -61,9 +61,9 @@ export const projects = [
   },
   {
     id: "project-2",
-    title: "Analytics Dashboard",
-    description: "An interactive dashboard for visualizing business data, featuring dynamic charts and filters.",
-    tags: ["React", "Python", "D3.js"],
+    title: "Professional AI Productivity Web App",
+    description: "One of my best projects, this professional AI productivity web application showcases my ability to deliver high-quality, robust solutions. While some features are currently disabled, the site is in its original state.",
+    tags: ["React", "Python", "AI"],
     link: "https://Nuhm.netlify.app",
   },
   {
