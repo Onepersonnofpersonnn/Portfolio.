@@ -24,7 +24,7 @@ export function HeroSection() {
               <Button asChild size="lg">
                 <Link href="#projects">View My Work</Link>
               </Button>
-              <Button asChild variant="secondary" size="lg">
+              <Button asChild variant="outline" size="lg">
                 <Link href="#contact">Get in Touch</Link>
               </Button>
             </div>
