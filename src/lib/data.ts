@@ -69,13 +69,6 @@ export const projects = [
     link: "https://fayol.netlify.app",
   },
   {
-    id: "project-3",
-    title: "Vitesse d'Exécution",
-    description: "Des applications livrées rapidement sans compromis sur la qualité. Mon efficacité garantit le respect des délais et une mise sur le marché accélérée pour un retour sur investissement optimal.",
-    tags: ["HTML", "CSS", "Performance", "Optimisation", "Efficacité"],
-    link: "#",
-  },
-  {
     id: "project-4",
     title: "Qualité du Rendu",
     description: "Un rendu visuel impeccable et une attention méticuleuse aux détails. Chaque projet est conçu pour offrir une expérience utilisateur esthétique, intuitive et mémorable sur tous les appareils.",
