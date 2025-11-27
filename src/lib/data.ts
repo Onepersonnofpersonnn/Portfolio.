@@ -64,7 +64,7 @@ export const projects = [
     title: "Professional AI Productivity Web App",
     description: "One of my best projects, this professional AI productivity web application showcases my ability to deliver high-quality, robust solutions. While some features are currently disabled, the site is in its original state.",
     tags: ["React", "Python", "AI"],
-    link: "https://Nuhm.netlify.app",
+    link: "https://nuhm.netlify.app",
   },
   {
     id: "project-3",
