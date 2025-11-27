@@ -55,7 +55,7 @@ export function ContactSection() {
             Have a project in mind or just want to say hello? I'd love to hear from you.
           </p>
         </div>
-        <div className="mx-auto w-full max-w-sm lg:max-w-md">
+        <div className="mx-auto w-full max-w-lg lg:max-w-xl">
           <Card>
             <CardHeader>
               <CardTitle>Contact Me</CardTitle>
