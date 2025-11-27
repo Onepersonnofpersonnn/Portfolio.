@@ -57,14 +57,14 @@ export const projects = [
     title: "E-Commerce Platform",
     description: "A full-featured online store with a modern UI, product management, and a secure checkout process.",
     tags: ["Next.js", "React", "Tailwind CSS"],
-    link: "#",
+    link: "https://fayol.netlify.app",
   },
   {
     id: "project-2",
     title: "Analytics Dashboard",
     description: "An interactive dashboard for visualizing business data, featuring dynamic charts and filters.",
     tags: ["React", "Python", "D3.js"],
-    link: "#",
+    link: "https://Nuhm.netlify.app",
   },
   {
     id: "project-3",
