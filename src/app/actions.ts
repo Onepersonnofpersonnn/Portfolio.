@@ -1,5 +1,8 @@
 "use server";
 
+// This file is no longer used for the contact form,
+// but is kept in case you want to use server actions for other features.
+
 import { z } from "zod";
 
 const contactSchema = z.object({
@@ -32,10 +35,8 @@ export async function submitContactForm(
     };
   }
   
-  console.log("New contact form submission:");
-  console.log("Name:", validatedFields.data.name);
-  console.log("Email:", validatedFields.data.email);
-  console.log("Message:", validatedFields.data.message);
+  // This logic is now handled on the client-side with EmailJS
+  console.log("Form submission is now handled by EmailJS on the client.");
 
   return {
     success: true,
