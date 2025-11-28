@@ -68,6 +68,20 @@ export const projects = [
     tags: ["HTML", "CSS", "React", "Python", "AI"],
     link: "https://fayol.netlify.app",
   },
+    {
+    id: "project-event",
+    title: "Site vitrine d'événements",
+    description: "Un site vitrine pour une agence événementielle, présentant leurs services et réalisations avec un design moderne et attrayant, conçu pour captiver les visiteurs.",
+    tags: ["HTML", "CSS", "React", "JavaScript"],
+    link: "https://paulevent.netlify.app",
+  },
+  {
+    id: "project-elegant",
+    title: "Site vitrine simple et élégant",
+    description: "Une vitrine web à la fois simple et élégante, conçue pour présenter une marque ou un produit avec un design épuré et une expérience utilisateur de premier ordre.",
+    tags: ["HTML", "CSS", "React", "JavaScript"],
+    link: "https://heavenagency.netlify.app",
+  },
   {
     id: "project-4",
     title: "Qualité du Rendu",
