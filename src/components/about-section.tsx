@@ -7,7 +7,7 @@ export function AboutSection() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
               À Propos de Moi
             </h2>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] font-elegant text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Je suis le roi des développeurs, principalement un développeur web. 
               Évidemment, comme je suis l'excellence incarnée, je suis un développeur full stack, 
               c'est-à-dire tant front-end que back-end. Je maîtrise l'art de concevoir et 
