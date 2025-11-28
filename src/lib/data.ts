@@ -73,11 +73,4 @@ export const projects = [
     tags: ["HTML", "CSS", "React", "JavaScript"],
     link: "https://heavenagency.netlify.app",
   },
-  {
-    id: "project-4",
-    title: "Qualité du Rendu",
-    description: "Un rendu visuel impeccable et une attention méticuleuse aux détails. Chaque projet est conçu pour offrir une expérience utilisateur esthétique, intuitive et mémorable sur tous les appareils.",
-    tags: ["HTML", "CSS", "UI/UX", "Design", "Responsive"],
-    link: "#",
-  },
 ];
