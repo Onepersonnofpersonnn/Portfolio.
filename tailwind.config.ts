@@ -13,7 +13,7 @@ export default {
         body: ['Inter', 'sans-serif'],
         headline: ['Inter', 'sans-serif'],
         code: ['monospace'],
-        elegant: ['Lora', 'serif'],
+        elegant: ['"Playfair Display"', 'serif'],
       },
       colors: {
         background: 'hsl(var(--background))',
