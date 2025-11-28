@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Code, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { useState } from "react";
 
 const navLinks = [
@@ -42,6 +42,9 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right">
+              <SheetHeader>
+                <SheetTitle className="sr-only">Navigation</SheetTitle>
+              </SheetHeader>
               <nav className="grid gap-6 text-lg font-medium pt-8">
                 <Link href="/" className="flex items-center space-x-2 mb-4" onClick={() => setSheetOpen(false)}>
                   <Code className="h-6 w-6 text-primary" />
