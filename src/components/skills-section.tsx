@@ -1,5 +1,4 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Progress } from "@/components/ui/progress";
 import { skills } from "@/lib/data";
 import { CheckCircle } from "lucide-react";
 
@@ -26,12 +25,14 @@ export function SkillsSection() {
               style={{ animationDelay: `${index * 150}ms` }}
             >
               <CardHeader className="p-2">
-                <CheckCircle className="h-12 w-12 text-accent" />
+                <div className="relative flex h-12 w-12 items-center justify-center">
+                  <div className="absolute h-full w-full rounded-full bg-accent/50 animate-ping"></div>
+                  <CheckCircle className="relative h-10 w-10 text-accent" />
+                </div>
               </CardHeader>
               <CardContent className="p-2 w-full">
                 <CardTitle className="text-lg font-semibold">{skill.name}</CardTitle>
                 <p className="text-sm text-muted-foreground mt-1 mb-3 h-10">{skill.description}</p>
-                <Progress value={skill.level} aria-label={`${skill.name} proficiency`} />
               </CardContent>
             </Card>
           ))}

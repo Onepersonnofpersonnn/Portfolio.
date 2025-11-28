@@ -1,57 +1,48 @@
 import { HtmlIcon, CssIcon, JavaScriptIcon, PythonIcon, ReactIcon, NextjsIcon, TailwindCssIcon, NodeJsIcon } from "@/components/icons";
+import { CheckCircle } from "lucide-react";
 
 export const skills = [
   {
     name: "JavaScript",
-    level: 95,
     description: "Building dynamic and interactive web applications.",
     icon: CheckCircle,
   },
   {
     name: "Python",
-    level: 85,
     description: "For backend development and data processing.",
     icon: CheckCircle,
   },
   {
     name: "HTML5",
-    level: 100,
     description: "Structuring web content with semantic markup.",
     icon: CheckCircle,
   },
   {
     name: "CSS3",
-    level: 98,
     description: "Designing beautiful and responsive layouts.",
     icon: CheckCircle,
   },
   {
     name: "React",
-    level: 92,
     description: "Creating powerful single-page applications.",
     icon: CheckCircle,
   },
   {
     name: "Next.js",
-    level: 90,
     description: "For server-side rendering and static site generation.",
     icon: CheckCircle,
   },
   {
     name: "Tailwind CSS",
-    level: 95,
     description: "Rapidly building custom user interfaces.",
     icon: CheckCircle,
   },
   {
     name: "Node.js",
-    level: 80,
     description: "Developing scalable backend services and APIs.",
     icon: CheckCircle,
   }
 ].map(skill => ({...skill, icon: CheckCircle}));
-
-import { CheckCircle } from "lucide-react";
 
 export const projects = [
   {
