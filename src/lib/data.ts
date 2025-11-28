@@ -47,8 +47,8 @@ export const skills = [
 export const projects = [
   {
     id: "project-1",
-    title: "Application web avancée",
-    description: "Une application web avec une interface utilisateur très poussée et soignée, et une page d'accueil magnifiquement créée. L'organisation et la structure impeccables de l'application garantissent une expérience utilisateur fluide et intuitive.",
+    title: "Advanced Web Application",
+    description: "A web application with a highly polished and refined user interface, and a beautifully crafted homepage. The application's impeccable organization and structure ensure a smooth and intuitive user experience.",
     tags: ["HTML", "CSS", "Next.js", "React", "Tailwind CSS"],
     link: "https://nuhm.netlify.app",
   },
@@ -61,15 +61,15 @@ export const projects = [
   },
     {
     id: "project-event",
-    title: "Site vitrine d'événements",
-    description: "Un site vitrine pour une agence événementielle, présentant leurs services et réalisations avec un design moderne et attrayant, conçu pour captiver les visiteurs.",
+    title: "Event Showcase Site",
+    description: "A showcase site for an event agency, presenting their services and achievements with a modern and attractive design, created to captivate visitors.",
     tags: ["HTML", "CSS", "React", "JavaScript"],
     link: "https://paulevent.netlify.app",
   },
   {
     id: "project-elegant",
-    title: "Site vitrine simple et élégant",
-    description: "Une vitrine web à la fois simple et élégante, conçue pour présenter une marque ou un produit avec un design épuré et une expérience utilisateur de premier ordre.",
+    title: "Simple and Elegant Showcase Site",
+    description: "A simple yet elegant web showcase, designed to present a brand or product with a clean design and a first-class user experience.",
     tags: ["HTML", "CSS", "React", "JavaScript"],
     link: "https://heavenagency.netlify.app",
   },
