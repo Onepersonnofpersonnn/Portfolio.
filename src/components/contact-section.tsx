@@ -48,7 +48,7 @@ export function ContactSection() {
   };
   
   return (
-    <section id="contact" className="w-full py-12 md:py-24 lg:py-32 bg-secondary/50">
+    <section id="contact" className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
       <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
         <div className="space-y-3">
           <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
@@ -60,11 +60,11 @@ export function ContactSection() {
         </div>
         <div className="mx-auto w-full max-w-2xl">
           <Card>
-            <CardHeader>
+            <CardHeader className="p-6">
               <CardTitle>Contact Me</CardTitle>
               <CardDescription>Fill out the form below and I'll get back to you as soon as possible.</CardDescription>
             </CardHeader>
-            <CardContent>
+            <CardContent className="p-6">
               <form ref={formRef} onSubmit={sendEmail} className="space-y-4">
                 <div className="space-y-2 text-left">
                   <Label htmlFor="from_name">Name</Label>
