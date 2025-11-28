@@ -33,7 +33,7 @@ export function HeroSection() {
           </div>
           <div className="relative flex items-center justify-center">
              <div className="absolute inset-0 bg-gradient-to-tr from-primary to-accent rounded-full blur-3xl opacity-30"></div>
-             <Crown className="absolute -top-8 left-1/2 -translate-x-1/2 h-20 w-20 text-accent z-20 animate-float" style={{ animationDuration: '4s' }} />
+             <Crown className="absolute -top-8 left-1/2 -translate-x-1/2 h-20 w-20 text-accent z-20 animate-float" style={{ animationDuration: '3s' }} />
              <Image
                 src="https://i.postimg.cc/LsNs9kPw/c637f55d-08cf-408c-b3e7-f73ec8bfecb4.png"
                 alt="John King"
