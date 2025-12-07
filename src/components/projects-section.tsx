@@ -39,9 +39,11 @@ export function ProjectsSection() {
                 <CardHeader className="p-0">
                   <Link href={project.link} className="block relative h-48 w-full" target="_blank" rel="noopener noreferrer">
                     {image && (
-                      <img
+                      <Image
                         src={image.imageUrl}
                         alt={project.title}
+                        width={600}
+                        height={400}
                         className="absolute h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                         data-ai-hint={image.imageHint}
                       />
