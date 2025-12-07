@@ -29,11 +29,13 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
       {
-        protocol: 'https',
-        hostname: 'i.postimg.cc',
-        port: '',
-        pathname: '/**',
+        protocol: 'https'
       },
+    ],
+  },
+  devIndicators: {
+    allowedDevOrigins: [
+      '*.cluster-cbeiita7rbe7iuwhvjs5zww2i4.cloudworkstations.dev',
     ],
   },
 };
