@@ -73,4 +73,18 @@ export const projects = [
     tags: ["HTML", "CSS", "React", "JavaScript"],
     link: "https://heavenagency.netlify.app",
   },
+  {
+    id: "project-cleaning",
+    title: "Super Clean - Cleaning Service",
+    description: "A pristine and optimized showcase website for a cleaning service, designed to reflect the company's commitment to quality and cleanliness.",
+    tags: ["React", "JavaScript", "CSS"],
+    link: "https://superpropre.netlify.app/",
+  },
+  {
+    id: "project-advanced-event",
+    title: "Advanced Event Platform",
+    description: "A sophisticated and feature-rich website for an event agency, showcasing their portfolio and services with an immersive user experience.",
+    tags: ["React", "JavaScript", "CSS"],
+    link: "https://paulevent.netlify.app",
+  }
 ];
